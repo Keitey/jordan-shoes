@@ -1,0 +1,119 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+.frete-info{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #F6F6F6;
+    background-color: #181818;
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+
+.loja{
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.wallpaper{
+    width: 100%;
+    height: 75.6vh;
+}
+
+.card-wallpaper h1{
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 39px;
+    color: #F6F6F6;
+}
+
+.card-wallpaper p{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 35px;
+    color: #F6F6F6;
+    margin-top: 19px;
+}
+
+.card-wallpaper{
+    display: flex;
+    align-items: center;
+    background: url(../image/wallpaper.jpeg) center center no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    opacity: 90%;
+    height: 75.6vh;
+}
+
+.card-wallpaper .card-info{
+    color: #F6F6F6;
+    padding-left: 100px;
+    width: 560px;
+}
+
+h2{
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.2rem;
+    line-height: 62,78px;
+    padding-top: 58px;
+    color: #181818;
+}
+
+h3{
+    text-align: center;
+    color: #474747;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 35,31px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: 250px;
+}
+
+.card-sapatos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.card-sapatos > .card{
+    flex: 1 1 250px;
+    margin: 10px;
+}
+
+.card{
+    background-color: #EBE9EA;
+}
+
+footer{
+    background-color: #181818;
+    color: #F6F6F6;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.8rem;
+    height: 60px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    margin-top: 30px;
+}
